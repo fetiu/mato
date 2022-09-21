@@ -10,5 +10,5 @@ typedef struct {
 
 typedef enum state transition(void);
 
-machine mato_new(transition table[][], int nstate, int nevent);
-int mato_trigger(machine *m, enum event event);
+machine tuma_new(transition table[][], int nstate, int nevent);
+int tuma_trigger(machine *m, enum event event);
